@@ -1,0 +1,4 @@
+{
+    "javascript.suggest.autoImports": false,
+    "javascript.preferences.importModuleSpecifier": "non-relative"
+}
