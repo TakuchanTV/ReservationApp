@@ -1,6 +1,10 @@
+//Calender.jsx//
+
+
 import React, {useEffect} from'react';
-import Calendar from 'react-calendar';
 import {useNavigate} from "react-router-dom";
+import { StyledCalender } from './CalenderCss';
+
 
  
 function CalendarPage (){
@@ -13,10 +17,11 @@ function CalendarPage (){
     
 
     return (
-      <Calendar locale="ja-JP"  value={new Date()} />
+      <StyledCalender locale="ja-JP" calendarType='ISO 8601' value={new Date()} />
     );
   }
 
  
 export default CalendarPage;
+
 
