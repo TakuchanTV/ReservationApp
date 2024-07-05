@@ -8,14 +8,16 @@ width: 30%;
 max-width: 500px;
 transform: translateY(100px);
 text-align: center;
-.fc.fc-col-header-cell{
-    font-size: 0.75rem;
-    font-weight: normal;
-   color :#b6b5b3 ;
-   border: none;
+
+.react-calendar__month-view__days__day--weekend:nth-child(7n-1){
+    color: blue;
 }
 
+.react-calendar__month-view__days__day--weekend:nth-child(7n){
+    color: red;
+}
 
 `
+
 
 
