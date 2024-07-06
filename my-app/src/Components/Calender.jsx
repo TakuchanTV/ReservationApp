@@ -3,11 +3,11 @@
 
 import React, {useEffect} from'react';
 import {useNavigate} from "react-router-dom";
-import { StyledCalender } from './CalenderCss';
-import {format} from 'date-fns'
+import { StyledCalender, Sbutton, Sdiv } from './CalenderCss';
 
  
 function CalendarPage (){
+    
     const navigate = useNavigate();
   
     useEffect(() => {
@@ -15,9 +15,15 @@ function CalendarPage (){
     }, [navigate])
 
     
-
     return (
-      <StyledCalender calendarType='US' locale='ja' value={new Date()} format={(locale, date) => (date, 'd')}/>
+      <>
+      <StyledCalender  locale='ja' value={new Date()} format={(locale, date) => (date, 'd')}/>
+        <Sdiv>
+          <Sbutton>前日</Sbutton>
+          <Sbutton>今日</Sbutton>
+          <Sbutton>翌日</Sbutton>
+        </Sdiv>
+      </>  
     );
   }
 
