@@ -19,9 +19,9 @@ function CalendarPage (){
       <>
       <StyledCalender  locale='ja' value={new Date()} format={(locale, date) => (date, 'd')}/>
         <Sdiv>
-          <Sbutton>前日</Sbutton>
-          <Sbutton>今日</Sbutton>
-          <Sbutton>翌日</Sbutton>
+          <Sbutton hoverBgColor="#4bd9d9">前日</Sbutton>
+          <Sbutton hoverBgColor="#ed5353">今日</Sbutton>
+          <Sbutton hoverBgColor="#c6da12">翌日</Sbutton>
         </Sdiv>
       </>  
     );
