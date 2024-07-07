@@ -33,8 +33,13 @@ margin-right: 850px;
 export const Sbutton = styled.button`
    transform :translateY(150px) ;
    margin: 5px;
-   :hover{
-    
-   }
+   border-radius: 16px;
+   background-color: ${props => props.BgColor || 'white'};
+   color: ${props => props.textColor || 'black'};
+   &:hover{
+    cursor: pointer;
+    background-color: ${props => props.hoverBgColor || 'white'};
+    color: ${props => props.hovertextColor || 'black'};
+   };
 `
 
