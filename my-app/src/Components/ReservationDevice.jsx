@@ -1,7 +1,10 @@
+//ReservationDevice.jsx//
+import styled from "styled-components"
+
 export const ReservationList = () => {
    return(
     <>
-     <div>
+     <SContainer>
        <p>ドラフター内オーブン(左)</p>
        <p>ドラフター内オーブン(右)</p>
        <p>真空乾燥機(左)</p>
@@ -16,7 +19,11 @@ export const ReservationList = () => {
        <p>DMA</p>
        <p>ホットスターラー(熱電対)</p>
        <p>ホットスターラー</p>
-     </div>    
+     </SContainer>    
     </>
    ) 
 }
+
+  const SContainer  = styled.div`
+    transform: translateX(200px) translateY(-100px);
+`
