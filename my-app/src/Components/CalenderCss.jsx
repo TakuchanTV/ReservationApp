@@ -19,6 +19,10 @@ margin-top: 80px;
     color: red;
 }
 
+.react-calendar__tile--active {
+    background-color: #cacaca;
+    color: #2b2323;
+}
 
 `
 
