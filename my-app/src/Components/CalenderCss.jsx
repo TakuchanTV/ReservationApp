@@ -8,6 +8,7 @@ width: 30%;
 max-width: 500px;
 transform: translateY(150px);
 text-align: center;
+margin-top: 80px;
 
 
 .react-calendar__month-view__days__day--weekend:nth-child(7n-1){
@@ -25,13 +26,13 @@ export const Sdiv = styled.div`
 display: flex ;
 justify-content: center;
 align-items: flex-end;
-margin-top: 20px;
-margin-right: 850px;
+margin-top: 30px;
+margin-right: 800px;
 
 `
 
 export const Sbutton = styled.button`
-   transform :translateY(150px) ;
+   transform :translateY(-400px) translateX(60px) ;
    margin: 5px;
    border-radius: 16px;
    background-color: ${props => props.BgColor || 'white'};
