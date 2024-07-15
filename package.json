@@ -1,16 +1,49 @@
 {
   
-  "dependencies": {
+
+
+
+"dependencies": {
   
-    
-  "react-calendar": "^5.0.0"
+
+
+
   
-  },
+
+
+
+"react-calendar": "^5.0.0",
   
-  "devDependencies": {
+
+
+
   
-    
-  "gh-pages": "^6.1.1"
+
+
+
+"react-scripts": "^5.0.1"
   
-  }
+
+
+
+},
+  
+
+
+
+"devDependencies": {
+  
+
+
+
+  
+
+
+
+"gh-pages": "^6.1.1"
+  
+
+
+
+}
 }
